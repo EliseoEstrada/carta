@@ -13,52 +13,52 @@ body{
 
 .back{
     position: relative;
-    width: 450px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     background: #6247aa;
 }
 
 .front{
     position: absolute;
-    border-right: 230px solid #815ac0;
-    border-top: 200px solid transparent;
-    border-bottom: 200px solid transparent;
+    border-right: 130px solid #815ac0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
     height: 0;
     width: 0;
     top: 0;
-    left: 220px;
+    left: 120px;
     z-index: 3;
 }
 
 .front:before{
     content: "";
     position: absolute;
-    border-left: 230px solid #815ac0;
-    border-top: 200px solid transparent;
-    border-bottom: 200px solid transparent;
+    border-left: 130px solid #815ac0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
     height: 0;
     width: 0;
-    top: -200px;
-    left: -220px;
+    top: -100px;
+    left: -120px;
 }
 
 .front:after{
     content: "";
     position: absolute;
-    border-bottom: 205px solid #7251b5;
-    border-left: 225px solid transparent;
-    border-right: 225px solid transparent;
+    border-bottom: 105px solid #7251b5;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
     height: 0;
     width: 0;
     top: -5px;
-    left: -220px;
+    left: -120px;
 }
 
 .top{
     position: absolute;
-    border-top: 205px solid #9163cb;
-    border-left: 225px solid transparent;
-    border-right: 225px solid transparent;
+    border-top: 105px solid #9163cb;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
     height: 0;
     width: 0;
     top: 0;
@@ -73,22 +73,21 @@ body{
 .letter{
     position: absolute;
     background: white;
-    width: 430px;
-    height: 380px;
+    width: 230px;
+    height: 180px;
     top: 10px;
     left: 10px;
     transition: 0.2s;
 }
 
 .envelope:hover .letter{
-    transform: translateY(-200px);
+    transform: translateY(-150px);
     z-index: 2;
 }
 
 .text1{
     position: absolute;
-    color: white;
-    font-family: sans-serif;
+    font-family: cursive;
     top: -50%;
     text-align: center;
 }
@@ -96,7 +95,7 @@ body{
 .text{
     text-align: center;
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     margin-top: 20px;
     font-weight: bold;
     color: black;
