@@ -9,7 +9,7 @@ body{
 
 .animation-box{
     width: 75%;
-    height: 27.5rem;
+    height: 100vh;
     margin: 0 auto;
     overflow:  hidden;
     position: relative;
@@ -99,6 +99,18 @@ body{
     animation-delay: 27s;
 }
 
+.eighth-text{
+    font-size: 2rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    font-family: cursive;
+    opacity: 0;
+    animation-name: untoldcoding1;
+    animation-duration: 5s;
+    animation-delay: 31.5s;
+}
+
 @keyframes untoldcoding1{
     0%{
         top: -3rem;
@@ -116,32 +128,178 @@ body{
 
 
 
-html, body{
-    padding: 10px;
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    display: inline-block;
-}
-
-.grid-wrapper > div{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
-
-.grid-wrapper > div > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     border-radius: 5px;
 }
 
-.grid-wrapper{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, min);
+.absPos {
+    position: absolute;
+}
+
+.relPos {
+    position: relative;
+}
+
+#photoBox {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#img1 {
+    width: 250px;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeInAnimation 2s forwards;
+    animation-delay: 35s;
+}
+
+#img2 {
+    width: 250px;
+    top: 10rem;
+    left: 5rem;
+    z-index: 2;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 37s;
+}
+
+#img3 {
+    width: 230px;
+    top: 1rem;
+    left: 15rem;
+    z-index: 3;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 39s;
+}
+
+#img4 {
+    width: 230px;
+    top: 19rem;
+    left: 1rem;
+    z-index: 4;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 41s;
+}
+
+#img5 {
+    width: 270px;
+    top: 15rem;
+    left: 12rem;
+    z-index: 5;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 43s;
+}
+
+#img6 {
+    width: 270px;
+    top: 33rem;
+    left: 1rem;
+    z-index: 7;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 45s;
+}
+
+#img7 {
+    width: 250px;
+    top: 24rem;
+    left: 9rem;
+    z-index: 6;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 47s;
+}
+
+#img8 {
+    width: 200px;
+    top: 38rem;
+    left: 15rem;
+    z-index: 8;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 49s;
+}
+
+#img9 {
+    width: 200px;
+    top: 48rem;
+    left: 5rem;
+    z-index: 9;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 51s;
+}
+
+#img11 {
+    width: 200px;
+    top: 40rem;
+    left: 2rem;
+    z-index: 10;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 53s;
+}
+
+#img10 {
+    width: 300px;
+    top: 20rem;
+    left: 5rem;
+    z-index: 11;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 55s;
+}
+
+.final-text{
+    font-size: 2rem;
+    color: rgb(255, 41, 41);
+    position: absolute;
+    left: 5rem;
+    top: 20rem;
+    opacity: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+
+    animation: untoldcoding2 5s forwards;
+    animation-delay: 57s;
+    z-index: 20;
+}
+
+@keyframes untoldcoding2{
+    to { 
+        top: 15rem;
+        opacity: 1; 
+    } 
+}
+
+
+@keyframes fadeInAnimation { 
+    to { opacity: 1; } 
 }
