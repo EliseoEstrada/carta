@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.absPos {
+    position: absolute;
+}
+
+.relPos {
+    position: relative;
+}
+
+#photoBox {
+    width: 100vw;
+    height: 100vh;
+    background: #ffe2b7;
+}
+
+#img1 {
+    width: 250px;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeInAnimation 2s forwards;
+    animation-delay: 1s;
+}
+
+#img2 {
+    width: 250px;
+    top: 10rem;
+    left: 5rem;
+    z-index: 2;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 2s;
+}
+
+#img3 {
+    width: 230px;
+    top: 1rem;
+    left: 15rem;
+    z-index: 3;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 3s;
+}
+
+#img4 {
+    width: 230px;
+    top: 19rem;
+    left: 1rem;
+    z-index: 4;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 4s;
+}
+
+#img5 {
+    width: 270px;
+    top: 15rem;
+    left: 12rem;
+    z-index: 5;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 5s;
+}
+
+#img6 {
+    width: 270px;
+    top: 33rem;
+    left: 1rem;
+    z-index: 7;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 6s;
+}
+
+#img7 {
+    width: 250px;
+    top: 24rem;
+    left: 9rem;
+    z-index: 6;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 7s;
+}
+
+#img8 {
+    width: 200px;
+    top: 38rem;
+    left: 15rem;
+    z-index: 8;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 8s;
+}
+
+#img9 {
+    width: 200px;
+    top: 48rem;
+    left: 5rem;
+    z-index: 9;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 9s;
+}
+
+#img11 {
+    width: 200px;
+    top: 40rem;
+    left: 2rem;
+    z-index: 10;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 10s;
+}
+
+#img10 {
+    width: 300px;
+    top: 20rem;
+    left: 5rem;
+    z-index: 11;
+
+    opacity: 0;
+    animation: fadeInAnimation 3s forwards;
+    animation-delay: 11s;
+}
+
+.first-text{
+    font-size: 4.4rem;
+    color: white;
+    position: absolute;
+    left: 5rem;
+    top: 20rem;
+    opacity: 0;
+    text-align: center;
+
+    animation: untoldcoding1 3s forwards;
+    animation-delay: 13s;
+    z-index: 20;
+}
+
+@keyframes untoldcoding1{
+    to { 
+        top: 15rem;
+        opacity: 1; 
+    } 
+}
+
+
+@keyframes fadeInAnimation { 
+    to { opacity: 1; } 
+}
